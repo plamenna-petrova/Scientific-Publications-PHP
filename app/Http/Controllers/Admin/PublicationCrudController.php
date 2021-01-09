@@ -40,6 +40,16 @@ class PublicationCrudController extends CrudController
                 'allow_null' => false,
                 'allows_multiple' => false,
                 'tab' => 'Choose publication type'
+            ],
+            [    // Select2Multiple = n-n relationship (with pivot table)
+                'label'     => "Authors",
+                'type'      => ($show ? "select": 'select2_multiple'),
+                'name'      => 'authors', // the method that defines the relationship in your Model
+                 // optional
+                'entity'    => 'authors', // the method that defines the relationship in your Model
+                'model'     => "App\Models\Author", // foreign key model
+                'attribute' => 'name', // foreign key attribute that is shown to user
+                'pivot'     => true, // on create&update, do you need to add/delete pivot table entries?
             ]
         ];
     }

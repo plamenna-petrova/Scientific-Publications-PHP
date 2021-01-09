@@ -19,9 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3131b0c-f7cd-4d93-b29e-8ac5236a03ba" name="Default Changelist" comment="Applied getFieldsData() function to PublicationCrudController">
+    <list default="true" id="d3131b0c-f7cd-4d93-b29e-8ac5236a03ba" name="Default Changelist" comment="Added setupShowOperation() function to PublicationCrudController">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AuthorCrudController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/AuthorRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Author.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_09_205135_create_publication_authors_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_09_205747_create_authors_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/PublicationCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/PublicationCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Publication.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Publication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/backpack/custom.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/backpack/custom.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +206,7 @@
       <workItem from="1610130423878" duration="2485000" />
       <workItem from="1610202820986" duration="16000" />
       <workItem from="1610215828108" duration="4705000" />
-      <workItem from="1610224525917" duration="372000" />
+      <workItem from="1610224525917" duration="2734000" />
     </task>
     <task id="LOCAL-00001" summary="Connected the project to a virtual host, edited the APP_URL in the .env file">
       <created>1610126469950</created>
@@ -228,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610220471990</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added setupShowOperation() function to PublicationCrudController">
+      <created>1610225024028</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610225024028</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +267,8 @@
     <MESSAGE value="Configured the database and created admin panel using backpack" />
     <MESSAGE value="Created Publications Table and added CRUD options with Backpack" />
     <MESSAGE value="Applied getFieldsData() function to PublicationCrudController" />
-    <option name="LAST_COMMIT_MESSAGE" value="Applied getFieldsData() function to PublicationCrudController" />
+    <MESSAGE value="Added setupShowOperation() function to PublicationCrudController" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added setupShowOperation() function to PublicationCrudController" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="366" key="Github.ShareDialog" timestamp="1610125956959">
@@ -263,9 +279,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="535" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1610126022800" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610220473666">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610225025534">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610220473666" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610225025534" />
   </component>
 </project>

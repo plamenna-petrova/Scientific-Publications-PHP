@@ -5,7 +5,7 @@ namespace App\Models;
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Database\Eloquent\Model;
 
-class Publication extends Model
+class Author extends Model
 {
     use CrudTrait;
 
@@ -15,7 +15,7 @@ class Publication extends Model
     |--------------------------------------------------------------------------
     */
 
-    protected $table = 'publications';
+    protected $table = 'authors';
     // protected $primaryKey = 'id';
     // public $timestamps = false;
     protected $guarded = ['id'];
@@ -34,12 +34,6 @@ class Publication extends Model
     | RELATIONS
     |--------------------------------------------------------------------------
     */
-
-    public function authors()
-    {
-        return $this->belongsToMany(Author::class, 'publication_authors','publication_id', 'author_id');
-    }
-
 
     /*
     |--------------------------------------------------------------------------
