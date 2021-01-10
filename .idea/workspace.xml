@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3131b0c-f7cd-4d93-b29e-8ac5236a03ba" name="Default Changelist" comment="Added validation for Authors and Publications">
+    <list default="true" id="d3131b0c-f7cd-4d93-b29e-8ac5236a03ba" name="Default Changelist" comment="Implemented search logic for author, type of publication and publication title">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/AuthorCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AuthorCrudController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/PublicationCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/PublicationCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +202,7 @@
       <workItem from="1610224525917" duration="5392000" />
       <workItem from="1610230147307" duration="2069000" />
       <workItem from="1610275003813" duration="3238000" />
-      <workItem from="1610285168412" duration="2572000" />
+      <workItem from="1610285168412" duration="4962000" />
     </task>
     <task id="LOCAL-00001" summary="Connected the project to a virtual host, edited the APP_URL in the .env file">
       <created>1610126469950</created>
@@ -261,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610277828868</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Implemented search logic for author, type of publication and publication title">
+      <created>1610287882689</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1610287882689</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +295,8 @@
     <MESSAGE value="Created PublicationAuthors table and Authors table with Backpack CRUD, added Select2 Multiple options for authors in PublicationController" />
     <MESSAGE value="Added image upload options for the Authors" />
     <MESSAGE value="Added validation for Authors and Publications" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added validation for Authors and Publications" />
+    <MESSAGE value="Implemented search logic for author, type of publication and publication title" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented search logic for author, type of publication and publication title" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="366" key="Github.ShareDialog" timestamp="1610125956959">
@@ -300,9 +307,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="535" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1610126022800" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610277830296">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610287884807">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610277830296" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610287884807" />
   </component>
 </project>
