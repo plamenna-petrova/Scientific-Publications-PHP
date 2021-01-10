@@ -25,7 +25,8 @@ class PublicationCrudController extends CrudController
             [
                 'name' => 'title',
                 'label' => 'Title',
-                'type' => 'textarea'
+                'type' => 'textarea',
+                'searchLogic' => 'text'
             ],
             [
                 'name' => 'excerpt',
@@ -39,7 +40,8 @@ class PublicationCrudController extends CrudController
                 'options' => ['Article in a magazine' => 'Article in a magazine', 'Report of a conference' => 'Report of a conference', 'Book' => 'Book'],
                 'allow_null' => false,
                 'allows_multiple' => false,
-                'tab' => 'Choose publication type'
+                'tab' => 'Choose publication type',
+                'searchLogic' => 'text'
             ],
             [    // Select2Multiple = n-n relationship (with pivot table)
                 'label'     => "Authors",

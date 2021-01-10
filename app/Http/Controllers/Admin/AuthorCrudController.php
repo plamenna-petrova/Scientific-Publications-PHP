@@ -25,7 +25,8 @@ class AuthorCrudController extends CrudController
             [
                 'name' => 'name',
                 'label' => 'Author Full Name',
-                'type' => 'text'
+                'type' => 'text',
+                'searchLogic' => 'text'
             ],
             [
                 'name' => 'occupation',
