@@ -26,7 +26,8 @@ class AuthorRequest extends FormRequest
     public function rules()
     {
         return [
-            // 'name' => 'required|min:5|max:255'
+            'name' => 'required|min:5|max:50',
+            'occupation' => 'required|min:10|max:150'
         ];
     }
 
@@ -50,7 +51,8 @@ class AuthorRequest extends FormRequest
     public function messages()
     {
         return [
-            //
+            'name.required' => 'Please provide valid full name of the author which is between 5 and 50 characters.',
+            'occupation.required' => 'You should provide valid occupation description between 10 and 150 characters'
         ];
     }
 }

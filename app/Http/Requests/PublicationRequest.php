@@ -26,7 +26,8 @@ class PublicationRequest extends FormRequest
     public function rules()
     {
         return [
-            // 'name' => 'required|min:5|max:255'
+            'title' => 'required|min:10|max:100|unique:publications',
+            'excerpt' => 'required'
         ];
     }
 
@@ -50,7 +51,9 @@ class PublicationRequest extends FormRequest
     public function messages()
     {
         return [
-            //
+            'title.required' => 'Please provide valid publication title which is between 10 and 100 characters.',
+            'title.unique' => 'The title that you have provided has already been used by another publication.',
+            'excerpt.required' => 'Please provide valid excerpt of the publication'
         ];
     }
 }

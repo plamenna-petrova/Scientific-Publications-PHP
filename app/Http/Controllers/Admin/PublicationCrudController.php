@@ -25,7 +25,7 @@ class PublicationCrudController extends CrudController
             [
                 'name' => 'title',
                 'label' => 'Title',
-                'type' => 'text'
+                'type' => 'textarea'
             ],
             [
                 'name' => 'excerpt',

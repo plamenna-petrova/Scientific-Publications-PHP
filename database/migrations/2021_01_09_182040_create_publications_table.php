@@ -14,7 +14,7 @@ class CreatePublicationsTable extends Migration
     {
         Schema::create('publications', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('title')->unique();
+            $table->longText('title')->unique();
             $table->longText('excerpt');
             $table->string('type');
             $table->timestamps();

@@ -30,7 +30,7 @@ class AuthorCrudController extends CrudController
             [
                 'name' => 'occupation',
                 'label' => 'Occupation',
-                'type' => 'text'
+                'type' => 'textarea'
             ],
             [
                 'label' => "Author Image",
