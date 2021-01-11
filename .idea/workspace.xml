@@ -19,64 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3131b0c-f7cd-4d93-b29e-8ac5236a03ba" name="Default Changelist" comment="Added MIT License">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/breakpoints.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/browser.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/base/_page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/base/_reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/base/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_actions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_box.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_highlights.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_icon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_image.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_inner.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_table.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_testimonials.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/components/_wrapper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/layout/_banner.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/layout/_cta.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/layout/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/layout/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/layout/_heading.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/layout/_main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/layout/_menu.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/libs/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/libs/_flexgrid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/libs/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/libs/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/libs/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/libs/_vars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/libs/_vendor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sass/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/banner.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/cta01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pic01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pic02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pic03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/index/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+    <list default="true" id="d3131b0c-f7cd-4d93-b29e-8ac5236a03ba" name="Default Changelist" comment="Integrated a template in the project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +203,10 @@
       <workItem from="1610230147307" duration="2069000" />
       <workItem from="1610275003813" duration="3238000" />
       <workItem from="1610285168412" duration="7356000" />
-      <workItem from="1610303515725" duration="1094000" />
+      <workItem from="1610303515725" duration="1477000" />
+      <workItem from="1610368509828" duration="274000" />
+      <workItem from="1610382342296" duration="2647000" />
+      <workItem from="1610385182483" duration="956000" />
     </task>
     <task id="LOCAL-00001" summary="Connected the project to a virtual host, edited the APP_URL in the .env file">
       <created>1610126469950</created>
@@ -344,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610293376322</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Integrated a template in the project">
+      <created>1610304681702</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1610304681702</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +331,8 @@
     <MESSAGE value="Added Authors and Publications Seed" />
     <MESSAGE value="Changed font icons of Authors and Publications" />
     <MESSAGE value="Added MIT License" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added MIT License" />
+    <MESSAGE value="Integrated a template in the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integrated a template in the project" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="366" key="Github.ShareDialog" timestamp="1610125956959">
@@ -387,9 +343,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="535" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1610126022800" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610293378763">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610304683267">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610293378763" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610304683267" />
   </component>
 </project>
