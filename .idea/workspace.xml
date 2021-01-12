@@ -19,17 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3131b0c-f7cd-4d93-b29e-8ac5236a03ba" name="Default Changelist" comment="Added search for Author Name">
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/complex-search.blade.php" afterDir="false" />
+    <list default="true" id="d3131b0c-f7cd-4d93-b29e-8ac5236a03ba" name="Default Changelist" comment="Implemented a complex search for publication title, type and author name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PublicationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PublicationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/author.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/author.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/publication.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/publication.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/search.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/search.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/single-author.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/single-author.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/single-publication.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/single-publication.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +213,7 @@
       <workItem from="1610442349415" duration="5237000" />
       <workItem from="1610450611450" duration="4191000" />
       <workItem from="1610461691859" duration="23000" />
-      <workItem from="1610468287875" duration="7486000" />
+      <workItem from="1610468287875" duration="12282000" />
     </task>
     <task id="LOCAL-00001" summary="Connected the project to a virtual host, edited the APP_URL in the .env file">
       <created>1610126469950</created>
@@ -341,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610455553743</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Implemented a complex search for publication title, type and author name">
+      <created>1610476012687</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1610476012687</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,7 +378,8 @@
     <MESSAGE value="Added Search by publication title, type and by authors" />
     <MESSAGE value="Added search links for authors, publications as well as extended search in the template nav" />
     <MESSAGE value="Added search for Author Name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added search for Author Name" />
+    <MESSAGE value="Implemented a complex search for publication title, type and author name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented a complex search for publication title, type and author name" />
   </component>
   <component name="WindowStateProjectService">
     <state x="934" y="217" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610396357381">
@@ -397,10 +398,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="535" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1610126022800" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610455555021">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610476015326">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610455555021" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610476015326" />
     <state x="93" y="93" width="1350" height="638" key="dock-window-1" timestamp="1610475128501">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

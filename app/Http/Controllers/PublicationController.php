@@ -14,6 +14,12 @@ class PublicationController extends BaseController
     public function getAll()
     {
        $publications = Publication::all();
+//       $publications = \DB::table('publications')
+//           ->join('publication_authors','publications.id','=','publication_authors.publication_id')
+//           ->join('authors','authors.id','=','publication_authors.author_id')
+//           ->select('publications.*')
+//           ->addselect("authors.name as authors")
+//           ->get();
        return view('layouts/publication', compact('publications'));
     }
 

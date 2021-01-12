@@ -10,6 +10,7 @@
                             <h3 style="font-family: cursive; color: darkred; font-weight: bold">Title: {{$publication->title}}</h3>
                             <h3 style="font-family: cursive; color: darkred; font-weight: bold">Excerpt: {!!$publication->excerpt!!}</h3>
                             <h3 style="font-family: cursive; color: darkred; font-weight: bold">Type: {{$publication->type}}</h3>
+{{--                            <h3 style="font-family: cursive; color: darkred; font-weight: bold">Authors: {{$publication->authors}}</h3>--}}
                         </div>
                     @endforeach
                 </section>
