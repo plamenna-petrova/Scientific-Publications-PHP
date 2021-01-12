@@ -45,3 +45,6 @@ Route::get('/authors', [AuthorController::class, 'getAll']);
 // Current Author
 Route::get('authors/{id}', [AuthorController::class, 'getById']);
 
+//Complex Search
+Route::get('/complex-search', [PublicationController::class, 'complexSearch'])->name('complex-search');
+

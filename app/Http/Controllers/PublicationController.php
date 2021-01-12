@@ -7,6 +7,7 @@ use App\Models\Publication;
 use App\Models\Author;
 use Illuminate\Routing\Controller as BaseController;
 
+
 class PublicationController extends BaseController
 {
 
@@ -55,5 +56,22 @@ class PublicationController extends BaseController
     public function searchByAuthor(Request $request){
         $authors = Author::all();
         return view('layouts/search', compact('authors'));
+    }
+
+    //Applying complex search to search by Publication Title, Publication Type and Author Full Name
+    public function complexSearch(Request $request){
+        //Get the search value from the request
+        $search = $request->input('complex-search');
+
+        $publications = Publication::query()
+            ->where('title', 'LIKE', "%{$search}%")
+            ->orWhere('type', 'LIKE', "%{$search}%")
+            ->get();
+
+        $authors = Author::query()
+            ->where('name', 'LIKE', "%{$search}%")
+            ->get();
+
+        return view('layouts/complex-search', compact(['publications', 'authors']));
     }
 }
