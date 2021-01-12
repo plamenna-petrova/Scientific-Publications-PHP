@@ -27,8 +27,9 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="elements.html">Authors</a></li>
-        <li><a href="generic.html">Publications</a></li>
+        <li><a href="{{ url('/authors') }}">Authors</a></li>
+        <li><a href="{{ url('/publications') }}">Publications</a></li>
+        <li><a href="{{ url('/search-all') }}">Search All</a></li>
     </ul>
 </nav>
 

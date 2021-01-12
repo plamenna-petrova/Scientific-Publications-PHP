@@ -3,7 +3,7 @@
     <div id="wrapper" class="container">
         <div id="page" class="row">
             <section class="row">
-                @foreach($authors as $author)
+                @foreach($authors->reverse() as $author)
                     <div class="authors">
                         <p>Author full name: {{$author->name}}</p>
                         <p>Occupation: {{$author->occupation}}</p>
