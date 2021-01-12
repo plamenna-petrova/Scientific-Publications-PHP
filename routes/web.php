@@ -30,6 +30,8 @@ Route::get('/', [IndexController::class, 'index']);
 Route::get('/search-title', [PublicationController::class, 'searchByPublicationTitle'])->name('search-title');
 // Route Search By Publication Publication Type
 Route::get('/search-type', [PublicationController::class, 'searchByPublicationType'])->name('search-type');
+// Route Search By Author Full Name
+Route::get('/search-author', [AuthorController::class, 'searchByAuthorFullName'])->name('search-author');
 // Route For Search Shows all Authors to prevent multiple queries
 Route::get('/search-all', [PublicationController::class, 'searchByAuthor']);
 

@@ -17,7 +17,7 @@
 
 <!-- Header -->
 <header id="header">
-    <a class="logo" href="index.html">Industrious</a>
+    <a class="logo" href="/">Industrious</a>
     <nav>
         <a href="#menu">Menu</a>
     </nav>
@@ -26,7 +26,7 @@
 <!-- Nav -->
 <nav id="menu">
     <ul class="links">
-        <li><a href="index.html">Home</a></li>
+        <li><a href="/">Home</a></li>
         <li><a href="{{ url('/authors') }}">Authors</a></li>
         <li><a href="{{ url('/publications') }}">Publications</a></li>
         <li><a href="{{ url('/search-all') }}">Search All</a></li>

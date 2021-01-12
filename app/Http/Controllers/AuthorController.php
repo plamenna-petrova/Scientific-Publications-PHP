@@ -21,4 +21,18 @@ class AuthorController extends BaseController
 
         return view('layouts/single-author', compact('author'));
     }
+
+    public function searchByAuthorFullName(Request $request){
+        //Get the search value from the request
+        $search = $request->input('search-author');
+
+        //Search in the title and body columns from the authors table
+        $authors = Author::query()
+            ->where('name', 'LIKE', "%{$search}%")
+            ->get();
+
+        //Return the search view with the results
+        return view('layouts/author', compact('authors'));
+    }
+
 }
