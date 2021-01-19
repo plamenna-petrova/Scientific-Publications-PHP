@@ -48,3 +48,6 @@ Route::get('authors/{id}', [AuthorController::class, 'getById']);
 //Complex Search
 Route::get('/complex-search', [PublicationController::class, 'complexSearch'])->name('complex-search');
 
+//Search Publications By
+Route::get('/search-publications-by', [PublicationController::class, 'searchPublicationsBy'])->name('search-publications-by');
+

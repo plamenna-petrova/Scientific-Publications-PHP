@@ -33,6 +33,20 @@
                         <button class="button primary" style="margin-left: auto; margin-right: auto; display: block; font-size: 18px" type="submit">Complex Search</button>
                     </form>
                 </div>
+                <h2 style="color: black; font-weight: bold; text-align: center">Search Publications by their Title, Type or Author Name</h2>
+                <div class="searchWrapper" id="searchPublicationsBy">
+                    <form action="{{ route('search-publications-by') }}" method="GET" class="d-inline align-items-center">
+                        <div class="input-group">
+                            <input type="search" name="search-publications-by" style="margin-bottom: 20px; font-size: 20px" placeholder="Search Publications..." class="form-control">
+                            <select class="custom-select" name="search_by" style="margin-bottom: 20px; font-size: 20px" id="searchBy">
+                                <option value="title" selected>Search by publication title</option>
+                                <option value="type">Search by publication type</option>
+                                <option value="author_name">Search by author name</option>
+                            </select>
+                            <button type="submit" class="button primary" style="margin-left: auto; margin-right: auto; display: block; font-size: 18px" >Search</button>
+                        </div>
+                    </form>
+                </div>
                 <h2 style="color: black; font-weight: bold; text-align: center">Find authors</h2>
                 <div class="searchWrapper" id="searchAuthor">
                     @foreach($authors as $author)
